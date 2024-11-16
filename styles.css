@@ -2,6 +2,9 @@
     --red: #ED1C24;
     --white: #fff;
     --gray: #B7B7B7;
+    --noraml-font-size: 1.4vw;
+    --large-font-size: 2.2vw;
+    --border-radius: 2vw;
 }
 
 * {
@@ -549,6 +552,10 @@ footer .tel-link {
     font-weight: bolder;
 }
 
+footer address {
+    font-size: 1.3vw;
+    line-height: 1.7VW;
+}
 
 /* Responsivess */
 
@@ -800,5 +807,10 @@ footer .tel-link {
     .follow-info img {
         width: auto;
         height: auto;
+    }
+
+    footer address {
+        font-size: 3vw;
+        line-height: 4vw;
     }
 }
