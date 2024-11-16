@@ -26,7 +26,6 @@ body {
 
 main {
     position: relative;
-    padding-bottom: 10vw;
 }
 
 section {
@@ -434,4 +433,100 @@ a>.franchiseBtnIcon {
 .openingCol>.address {
     line-height: 2.3vw;
     font-size: 1.5vw;
+}
+
+
+/* Footer  styling*/
+
+footer {
+    margin-top: 10vw;
+    background-color: #0F0F0F;
+    display: flex;
+    padding: 4vw 1.5vw;
+    gap: 3vw;
+    color: var(--gray);
+}
+
+footer .footer-head {
+    font-family: sans-serif;
+    margin-bottom: 2.5vw;
+    display: inline-block;
+    color: #fff;
+    font-size: 1.6vw;
+}
+
+.footer-details-box {
+    margin-top: 1.5vw;
+    width: 40vw;
+
+    &>.primaryPara {
+        margin-top: 3vw;
+    }
+}
+
+.site-links,
+.contact-info,
+.follow-info {
+    width: 20vw;
+}
+
+.site-links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    list-style: none;
+}
+
+.contact-info {
+    width: 24vw;
+}
+
+.footer-contact-head {
+    font-weight: 600;
+    color: #fff;
+    margin: 1.6vw 0;
+    font-size: 1.4vw;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 1.2vw;
+    margin-bottom: 1vw;
+    display: inline-block;
+}
+
+footer .tel-link {
+    word-spacing: .5vw;
+}
+
+.follow-info img {
+    width: 70%;
+    margin-top: 1.3vw;
+}
+
+
+.social-links-row {
+    width: 80%;
+    height: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vw
+}
+
+.social-links-row a {
+    width: 3.5vw;
+    height: 3.5vw;
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.5vw;
+
+    &>i {
+        font-size: 1.6vw;
+    }
 }
