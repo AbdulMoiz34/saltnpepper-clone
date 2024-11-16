@@ -33,7 +33,7 @@ section {
 }
 
 /* Header styling */
-button>i.icon {
+header a>i.icon {
     width: 2.3vw;
     height: 2.3vw;
     border-radius: 1.15vw;
@@ -74,13 +74,13 @@ nav button {
     border: none;
 }
 
-nav button:nth-of-type(1) {
+nav a:nth-of-type(4) {
     border: .1vw solid var(--white);
     border-radius: var(--border-radius);
     padding: 1.2vw;
 }
 
-nav button:nth-of-type(2) {
+nav a:nth-of-type(5) {
     border-radius: var(--border-radius);
     padding: 1vw 1.5vw;
     display: flex;
@@ -441,10 +441,14 @@ a>.franchiseBtnIcon {
 footer {
     margin-top: 10vw;
     background-color: #0F0F0F;
+}
+
+.footerBox {
     display: flex;
     padding: 4vw 1.5vw;
     gap: 3vw;
     color: var(--gray);
+
 }
 
 footer .footer-head {
@@ -529,4 +533,11 @@ footer .tel-link {
     &>i {
         font-size: 1.6vw;
     }
+}
+
+.footerBottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4vw;
+    font-weight: bolder;
 }
