@@ -137,7 +137,7 @@ header>.nav-icon {
 }
 
 .brandsRow {
-    width: 70%;
+    width: 80%;
     display: flex;
     gap: 2vw;
 }
@@ -157,6 +157,7 @@ header>.nav-icon {
     background-color: #fff;
     padding: 2.5vw 2.5vw;
     border-radius: .5vw;
+    width: 18vw;
 }
 
 .brandsBox button {
